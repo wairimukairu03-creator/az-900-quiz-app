@@ -44,4 +44,4 @@ button{font:inherit;cursor:pointer;color:inherit}
 .bd{display:grid;gap:8px;margin-top:14px}.bd div{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:6px 0}
 canvas{position:fixed;inset:0;pointer-events:none;z-index:9}
 footer{margin-top:40px;color:var(--mute);font-size:.82rem}
-
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
